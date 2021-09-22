@@ -1,0 +1,13 @@
+[alias]
+  co = checkout
+  po = pull origin
+  pso = push origin
+  cm = commit -m
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+	cp = cherry-pick
+	psfo = push --force-with-lease origin
+	lpn = log --pretty=oneline --no-merges
