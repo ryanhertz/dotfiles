@@ -1,1 +1,1 @@
-ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+cat ~/dotfiles/.gitconfig >> ~/.gitconfig
